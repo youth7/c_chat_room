@@ -1,5 +1,5 @@
 # c chat room
-一个运行于Win7的用于教学演示的C语言聊天室，编译环境是CodeBlocks 16.01+mingw
+一个运行于Win7的用于教学演示的C语言聊天室，编译环境是CodeBlocks 16.01+mingw。它的工作模型是阻塞IO+多线程（为了方便学生理解）。
 
 # 编译环境和方法
 ## 编译器
@@ -10,3 +10,6 @@ CodeBlocks 16.01 + mingw gcc
 * 将项目中所有文件放在同一目录下，然后在CodeBlocks中打开所有.c文件和common.h文件
 * 修改common.h文件中的变量*IP_OF_SERVER*，将其改为你的服务器的IP
 * 点击*build*按钮分别编译所有的.c文件
+
+# 使用方法
+在服务端运行win32_server.exe，用户端运行win32_client.exe（用户用来输入数据）和win32_client_for_display.exe（用户用来显示数据）。
