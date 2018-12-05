@@ -1,4 +1,4 @@
-# c chat room
+# chat room write with C
 一个运行于Win7的用于教学演示的C语言聊天室，编译环境是CodeBlocks 16.01+mingw。它的工作模型是阻塞IO+多线程（为了方便学生理解）。
 
 # 编译环境和方法
